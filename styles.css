@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+section{
+    height: 100vh;
+}
+body{
+    background: rgb(0, 0, 0);
+    height: 400vh;
+    
+    
+    
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color: rgba(30, 30, 30, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    
+    
+}
+
+.lnks{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-top: 65px;
+    margin-right: 20px;
+    height: 25px;
+}
+#nav-lnk{
+    display:flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+.container h1{
+    
+    margin-top: 45px;
+    margin-left: 50px;
+    color: rgb(253, 166, 67);
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    height: 75px;
+}
+.ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: 0.25s ease-in-out;
+    user-select: none;
+    
+}
+
+.ul a:hover{
+    color: rgb(253, 166, 67);
+    
+    translate: 0 -3px;
+    text-shadow: 0 0 7px rgb(253, 166, 67);
+    cursor: pointer;
+}
+
+.container h1:hover{
+    cursor: pointer;
+}
+.intro{
+    width: 50vw;
+    height: 50vh;
+    background-color: transparent;
+    padding: 40px;
+    margin-top: 160px;
+
+}
+
+.pic1{
+    width: 50vw;
+    height: 70vh;
+    background-color: red;
+    margin-top: 20px;
+    padding: 40px;
+
+}
+.pg-1{
+    display: flex;
+
+}
+.sm{
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+}
+
+.intro h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.intro p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.intro button{
+    margin-top: 30px;
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(253, 166, 67);
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+    user-select: none;
+}
+
+.intro button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px  10px rgb(253, 166, 67);
+    color: white;
+    background-color: black;
+}
+i{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+.fa-github{
+    font-size: 30px;
+}
+.fa-linkedin{
+    font-size: 30px;
+}
+.fa-brands:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 0.4 black;
+}
+.fa-brands{
+    transition: 0.3s ease-in-out;
+}
+.pic1{
+    background: url(web1.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.intro2{
+    width: 50vw;
+    height: 90vh;
+    
+    padding: 40px;
+    text-align: center;
+    
+    
+
+}
+
+.pg2{
+    display: flex;
+}
+.pic2{
+    width: 50vw;
+    height: 90vh;
+    
+    margin-top: 50px;
+    padding: 40px;
+    
+}
+
+.pic2{
+    
+    width: 40vw;
+    height: 85vh;
+    
+}
+
+@keyframes fade-in {
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+article > img{
+
+    width: 40vw;
+    height: 85vh;
+    scale: 0.6;
+    opacity: 0;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 250px 500px;
+    margin-top: 30px;
+    
+}
+.intro2 img{
+    margin-top: 80px;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(75, 75, 75);
+    
+}
+.pg3{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    place-items: center;
+}
+.card{
+    
+    width: 500px;
+    height: 100px;
+    color: aliceblue;
+    padding: 15px;
+    background: rgba(32, 32, 32, 0.55);
+    backdrop-filter:blur(5px);
+    border-radius: 15px;
+}
+.card-body{
+    height: 75px;
+    
+}
+.btn{
+    text-decoration: none;
+    color: rgb(253, 166, 67);
+    cursor: pointer;
+    
+
+}
+.card-header{
+    font-size: 18px;
+}
+.card p{
+    font-size: 16px;
+}
+.card-title{
+    font-size: 15px;
+}
+.h2{
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+}
+.h2 h2{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: cursive;
+    
+}
+#page-3{
+    background: url(pic3.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 35px 0 #FF00CC,0 0 85px 0 #FF0099;
+    border-radius: 20px;
+    
+    
+}
